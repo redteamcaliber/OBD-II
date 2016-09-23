@@ -1,0 +1,13 @@
+14:55:53 **** Incremental Build of configuration Debug for project obdlpc15 ****
+make -r all 
+Building file: ../src/util/algorithms.cpp
+Invoking: MCU C++ Compiler
+arm-none-eabi-c++ -D__NEWLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -DCPP_USE_HEAP -D__LPC15XX__ -D__USE_CMSIS -I"C:\Users\Topon\Desktop\OBD-II\src_ref\obdlpc15\inc" -I"C:\Users\Topon\Desktop\OBD-II\src_ref\obdlpc15\src\drv\lpc15xx" -I"C:\Users\Topon\Desktop\OBD-II\src_ref\obdlpc15\src\util" -I"C:\Users\Topon\Desktop\OBD-II\src_ref\obdlpc15\src\adapter" -I"C:\Users\Topon\Desktop\OBD-II\src_ref\obdlpc15\inc\chip_15xx" -I"C:\Users\Topon\Desktop\OBD-II\src_ref\obdlpc15\inc\chip_common" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fno-rtti -Wno-sign-compare -Wno-unused-function -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -MMD -MP -MF"src/util/algorithms.d" -MT"src/util/algorithms.o" -MT"src/util/algorithms.d" -o "src/util/algorithms.o" "../src/util/algorithms.cpp"
+In file included from d:\nxp\lpcxpresso_8.2.2_650\lpcxpresso\tools\arm-none-eabi\include\c++\5.4.1\cstdint:35:0,
+                 from ../src/util/lstring.h:15,
+                 from ../src/util/algorithms.h:11,
+                 from ../src/util/algorithms.cpp:11:
+d:\nxp\lpcxpresso_8.2.2_650\lpcxpresso\tools\arm-none-eabi\include\c++\5.4.1\bits\c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+ #error This file requires compiler and library support \
+  ^
+make: *** [src/util/algorithms.o] Error 1
