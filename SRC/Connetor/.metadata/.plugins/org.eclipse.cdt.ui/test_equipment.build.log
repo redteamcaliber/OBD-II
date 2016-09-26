@@ -1,0 +1,46 @@
+14:28:37 **** Build of configuration Debug for project test_equipment ****
+make -r all 
+Building file: ../src/cr_cpp_config.cpp
+Invoking: MCU C++ Compiler
+arm-none-eabi-c++ -D__NEWLIB__ -DDEBUG -D__CODE_RED -DDONT_ENABLE_SWVTRACECLK -DCORE_M3 -D__USE_LPCOPEN -DCPP_USE_HEAP -D__LPC15XX__ -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\test_equipment\inc" -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_board_nxp_lpcxpresso_1549\inc" -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fno-rtti -fno-exceptions -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/cr_cpp_config.d" -MT"src/cr_cpp_config.o" -MT"src/cr_cpp_config.d" -o "src/cr_cpp_config.o" "../src/cr_cpp_config.cpp"
+Finished building: ../src/cr_cpp_config.cpp
+ 
+Building file: ../src/cr_startup_lpc15xx.cpp
+Invoking: MCU C++ Compiler
+arm-none-eabi-c++ -D__NEWLIB__ -DDEBUG -D__CODE_RED -DDONT_ENABLE_SWVTRACECLK -DCORE_M3 -D__USE_LPCOPEN -DCPP_USE_HEAP -D__LPC15XX__ -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\test_equipment\inc" -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_board_nxp_lpcxpresso_1549\inc" -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fno-rtti -fno-exceptions -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/cr_startup_lpc15xx.d" -MT"src/cr_startup_lpc15xx.o" -MT"src/cr_startup_lpc15xx.d" -o "src/cr_startup_lpc15xx.o" "../src/cr_startup_lpc15xx.cpp"
+Finished building: ../src/cr_startup_lpc15xx.cpp
+ 
+Building file: ../src/crp.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__NEWLIB__ -DDEBUG -D__CODE_RED -DDONT_ENABLE_SWVTRACECLK -DCORE_M3 -D__USE_LPCOPEN -DCPP_USE_HEAP -D__LPC15XX__ -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\test_equipment\inc" -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_board_nxp_lpcxpresso_1549\inc" -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/crp.d" -MT"src/crp.o" -MT"src/crp.d" -o "src/crp.o" "../src/crp.c"
+Finished building: ../src/crp.c
+ 
+Building file: ../src/sysinit.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__NEWLIB__ -DDEBUG -D__CODE_RED -DDONT_ENABLE_SWVTRACECLK -DCORE_M3 -D__USE_LPCOPEN -DCPP_USE_HEAP -D__LPC15XX__ -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\test_equipment\inc" -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_board_nxp_lpcxpresso_1549\inc" -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/sysinit.d" -MT"src/sysinit.o" -MT"src/sysinit.d" -o "src/sysinit.o" "../src/sysinit.c"
+Finished building: ../src/sysinit.c
+ 
+Building file: ../src/test_equipment.cpp
+Invoking: MCU C++ Compiler
+arm-none-eabi-c++ -D__NEWLIB__ -DDEBUG -D__CODE_RED -DDONT_ENABLE_SWVTRACECLK -DCORE_M3 -D__USE_LPCOPEN -DCPP_USE_HEAP -D__LPC15XX__ -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\test_equipment\inc" -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_board_nxp_lpcxpresso_1549\inc" -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fno-rtti -fno-exceptions -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/test_equipment.d" -MT"src/test_equipment.o" -MT"src/test_equipment.d" -o "src/test_equipment.o" "../src/test_equipment.cpp"
+Finished building: ../src/test_equipment.cpp
+ 
+Building target: test_equipment.axf
+Invoking: MCU C++ Linker
+arm-none-eabi-c++ -nostdlib -L"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_board_nxp_lpcxpresso_1549\Debug" -L"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\Debug" -Xlinker -Map="test_equipment.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "test_equipment_Debug.ld" -o "test_equipment.axf"  ./src/cr_cpp_config.o ./src/cr_startup_lpc15xx.o ./src/crp.o ./src/sysinit.o ./src/test_equipment.o   -llpc_board_nxp_lpcxpresso_1549 -llpc_chip_15xx
+Memory region         Used Size  Region Size  %age Used
+       MFlash256:        5236 B       256 KB      2.00%
+         Ram0_16:          36 B        16 KB      0.22%
+         Ram1_16:          0 GB        16 KB      0.00%
+          Ram2_4:          0 GB         4 KB      0.00%
+Finished building target: test_equipment.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "test_equipment.axf"; # arm-none-eabi-objcopy -v -O binary "test_equipment.axf" "test_equipment.bin" ; # checksum -p LPC1549 -d "test_equipment.bin";
+   text	   data	    bss	    dec	    hex	filename
+   5236	      0	     36	   5272	   1498	test_equipment.axf
+ 
+
+14:28:40 Build Finished (took 2s.941ms)
+

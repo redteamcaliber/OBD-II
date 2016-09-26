@@ -121,7 +121,7 @@ static void AdapterRun()
 int main(void)
 {
     SystemCoreClockUpdate();
-    
+    //LPC_ST1->CTRL = //1;
     SetAllRegisters();
     AdapterRun();
 }
