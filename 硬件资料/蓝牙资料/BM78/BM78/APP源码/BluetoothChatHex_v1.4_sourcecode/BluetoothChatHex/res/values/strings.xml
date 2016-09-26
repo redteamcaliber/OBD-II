@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <string name="app_name">JessTech SPP Tool</string>
+	
+    <!--  BluetoothChat -->
+    <string name="send">Send</string>
+    <string name="send_hex">Send HEX</string>
+    <string name="send_ascii">Send ASCII</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">connecting&#8230;</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_not_connected">not connected</string>
+    <string name="tx_bytes">Tx Bytes: %d</string>
+    <string name="rx_bytes">Rx Bytes: %d</string>
+    <string name="tx_packets">Tx Packets: %d</string>
+    <string name="rx_packets">Rx Packets: %d</string>
+	<string name="reset">Reset</string>
+	<string name="save">Save</string>
+	<string name="clear">Clear</string>
+    <string name="reset_count">Reset Count</string>
+	
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices&#8230;</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!-- Options Menu -->
+    <string name="insecure_connect">Connect a device</string>
+    <string name="discoverable">Make discoverable</string>
+    
+    <!-- Setting -->
+    <string name="setting">Settings</string>
+    <string name="send_mode">Send Mode:</string>
+    <string name="ascii">ASCII</string>
+    <string name="hex">HEX</string>
+    <string name="close">Close</string>
+    <string name="loopback">Loopback:</string>
+    <string name="receive_loopback">Receive Loopback</string>
+    <string name="advanced">Advanced:</string>
+    <string name="secure_connect">Secure Connect</string>
+    <string name="fix_channel">Fix Insecure Channel</string>
+</resources>

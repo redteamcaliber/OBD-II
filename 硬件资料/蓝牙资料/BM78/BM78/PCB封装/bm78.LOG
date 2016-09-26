@@ -1,0 +1,9 @@
+Importer Log Report
+Project : bm78.PrjPcb
+
+Section : Document - bm78.asc
+
+    Section : Import Messages
+        Warning : WARNING: Cut-out region created from PADS keep-out on layer: Top Layer
+    EndSection
+EndSection

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dip"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:background="#666"
+        android:gravity="center"
+        android:text="@string/setting"
+        android:textSize="20sp"
+        android:textColor="#fff" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dip"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/send_mode"
+            android:textSize="18sp"
+            android:textColor="#fff" />
+
+        <RadioButton
+            android:id="@+id/radio_mode_ascii"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ascii" />
+
+        <RadioButton
+            android:id="@+id/radio_mode_hex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/hex" />
+    </LinearLayout>
+    
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dip"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/loopback"
+            android:textSize="18sp"
+            android:textColor="#fff" />
+
+        <CheckBox
+            android:id="@+id/checkbox_loopback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/receive_loopback" />
+
+    </LinearLayout>
+    
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dip"
+            android:gravity="left|center_vertical"
+            android:text="@string/advanced"
+            android:textSize="18sp"
+            android:textColor="#fff" />
+
+        <CheckBox
+            android:id="@+id/checkbox_secure_connect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/secure_connect" />
+        
+        <CheckBox
+            android:id="@+id/checkbox_fix_channel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fix_channel" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/button_close"
+            android:layout_width="120dip"
+            android:layout_height="42dip"
+            android:text="@string/save" />
+    </LinearLayout>
+
+</LinearLayout>

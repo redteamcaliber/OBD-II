@@ -1,0 +1,194 @@
+14:28:28 **** Build of configuration Debug for project lpc_chip_15xx ****
+make -r all 
+Building file: ../src/acmp_15xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/acmp_15xx.d" -MT"src/acmp_15xx.o" -MT"src/acmp_15xx.d" -o "src/acmp_15xx.o" "../src/acmp_15xx.c"
+Finished building: ../src/acmp_15xx.c
+ 
+Building file: ../src/adc_15xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/adc_15xx.d" -MT"src/adc_15xx.o" -MT"src/adc_15xx.d" -o "src/adc_15xx.o" "../src/adc_15xx.c"
+Finished building: ../src/adc_15xx.c
+ 
+Building file: ../src/chip_15xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/chip_15xx.d" -MT"src/chip_15xx.o" -MT"src/chip_15xx.d" -o "src/chip_15xx.o" "../src/chip_15xx.c"
+Finished building: ../src/chip_15xx.c
+ 
+Building file: ../src/clock_15xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/clock_15xx.d" -MT"src/clock_15xx.o" -MT"src/clock_15xx.d" -o "src/clock_15xx.o" "../src/clock_15xx.c"
+Finished building: ../src/clock_15xx.c
+ 
+Building file: ../src/crc_15xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/crc_15xx.d" -MT"src/crc_15xx.o" -MT"src/crc_15xx.d" -o "src/crc_15xx.o" "../src/crc_15xx.c"
+Finished building: ../src/crc_15xx.c
+ 
+Building file: ../src/dac_15xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/dac_15xx.d" -MT"src/dac_15xx.o" -MT"src/dac_15xx.d" -o "src/dac_15xx.o" "../src/dac_15xx.c"
+Finished building: ../src/dac_15xx.c
+ 
+Building file: ../src/dma_15xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/dma_15xx.d" -MT"src/dma_15xx.o" -MT"src/dma_15xx.d" -o "src/dma_15xx.o" "../src/dma_15xx.c"
+Finished building: ../src/dma_15xx.c
+ 
+Building file: ../src/eeprom.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/eeprom.d" -MT"src/eeprom.o" -MT"src/eeprom.d" -o "src/eeprom.o" "../src/eeprom.c"
+Finished building: ../src/eeprom.c
+ 
+Building file: ../src/gpio_15xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/gpio_15xx.d" -MT"src/gpio_15xx.o" -MT"src/gpio_15xx.d" -o "src/gpio_15xx.o" "../src/gpio_15xx.c"
+Finished building: ../src/gpio_15xx.c
+ 
+Building file: ../src/i2c_common_15xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/i2c_common_15xx.d" -MT"src/i2c_common_15xx.o" -MT"src/i2c_common_15xx.d" -o "src/i2c_common_15xx.o" "../src/i2c_common_15xx.c"
+Finished building: ../src/i2c_common_15xx.c
+ 
+Building file: ../src/i2cm_15xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/i2cm_15xx.d" -MT"src/i2cm_15xx.o" -MT"src/i2cm_15xx.d" -o "src/i2cm_15xx.o" "../src/i2cm_15xx.c"
+Finished building: ../src/i2cm_15xx.c
+ 
+Building file: ../src/i2cs_15xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/i2cs_15xx.d" -MT"src/i2cs_15xx.o" -MT"src/i2cs_15xx.d" -o "src/i2cs_15xx.o" "../src/i2cs_15xx.c"
+Finished building: ../src/i2cs_15xx.c
+ 
+Building file: ../src/iap.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/iap.d" -MT"src/iap.o" -MT"src/iap.d" -o "src/iap.o" "../src/iap.c"
+Finished building: ../src/iap.c
+ 
+Building file: ../src/iocon_15xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/iocon_15xx.d" -MT"src/iocon_15xx.o" -MT"src/iocon_15xx.d" -o "src/iocon_15xx.o" "../src/iocon_15xx.c"
+Finished building: ../src/iocon_15xx.c
+ 
+Building file: ../src/pinint_15xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/pinint_15xx.d" -MT"src/pinint_15xx.o" -MT"src/pinint_15xx.d" -o "src/pinint_15xx.o" "../src/pinint_15xx.c"
+Finished building: ../src/pinint_15xx.c
+ 
+Building file: ../src/pmu_15xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/pmu_15xx.d" -MT"src/pmu_15xx.o" -MT"src/pmu_15xx.d" -o "src/pmu_15xx.o" "../src/pmu_15xx.c"
+Finished building: ../src/pmu_15xx.c
+ 
+Building file: ../src/ring_buffer.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/ring_buffer.d" -MT"src/ring_buffer.o" -MT"src/ring_buffer.d" -o "src/ring_buffer.o" "../src/ring_buffer.c"
+Finished building: ../src/ring_buffer.c
+ 
+Building file: ../src/ritimer_15xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/ritimer_15xx.d" -MT"src/ritimer_15xx.o" -MT"src/ritimer_15xx.d" -o "src/ritimer_15xx.o" "../src/ritimer_15xx.c"
+Finished building: ../src/ritimer_15xx.c
+ 
+Building file: ../src/rtc_15xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/rtc_15xx.d" -MT"src/rtc_15xx.o" -MT"src/rtc_15xx.d" -o "src/rtc_15xx.o" "../src/rtc_15xx.c"
+Finished building: ../src/rtc_15xx.c
+ 
+Building file: ../src/sct_15xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/sct_15xx.d" -MT"src/sct_15xx.o" -MT"src/sct_15xx.d" -o "src/sct_15xx.o" "../src/sct_15xx.c"
+Finished building: ../src/sct_15xx.c
+ 
+Building file: ../src/sct_pwm_15xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/sct_pwm_15xx.d" -MT"src/sct_pwm_15xx.o" -MT"src/sct_pwm_15xx.d" -o "src/sct_pwm_15xx.o" "../src/sct_pwm_15xx.c"
+Finished building: ../src/sct_pwm_15xx.c
+ 
+Building file: ../src/sctipu_15xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/sctipu_15xx.d" -MT"src/sctipu_15xx.o" -MT"src/sctipu_15xx.d" -o "src/sctipu_15xx.o" "../src/sctipu_15xx.c"
+Finished building: ../src/sctipu_15xx.c
+ 
+Building file: ../src/spi_15xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/spi_15xx.d" -MT"src/spi_15xx.o" -MT"src/spi_15xx.d" -o "src/spi_15xx.o" "../src/spi_15xx.c"
+Finished building: ../src/spi_15xx.c
+ 
+Building file: ../src/stopwatch_15xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/stopwatch_15xx.d" -MT"src/stopwatch_15xx.o" -MT"src/stopwatch_15xx.d" -o "src/stopwatch_15xx.o" "../src/stopwatch_15xx.c"
+Finished building: ../src/stopwatch_15xx.c
+ 
+Building file: ../src/swm_15xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/swm_15xx.d" -MT"src/swm_15xx.o" -MT"src/swm_15xx.d" -o "src/swm_15xx.o" "../src/swm_15xx.c"
+Finished building: ../src/swm_15xx.c
+ 
+Building file: ../src/sysctl_15xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/sysctl_15xx.d" -MT"src/sysctl_15xx.o" -MT"src/sysctl_15xx.d" -o "src/sysctl_15xx.o" "../src/sysctl_15xx.c"
+Finished building: ../src/sysctl_15xx.c
+ 
+Building file: ../src/sysinit_15xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/sysinit_15xx.d" -MT"src/sysinit_15xx.o" -MT"src/sysinit_15xx.d" -o "src/sysinit_15xx.o" "../src/sysinit_15xx.c"
+../src/sysinit_15xx.c: In function 'Chip_SetupIrcClocking':
+../src/sysinit_15xx.c:53:15: warning: unused variable 'i' [-Wunused-variable]
+  volatile int i;
+               ^
+Finished building: ../src/sysinit_15xx.c
+ 
+Building file: ../src/uart_15xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/uart_15xx.d" -MT"src/uart_15xx.o" -MT"src/uart_15xx.d" -o "src/uart_15xx.o" "../src/uart_15xx.c"
+Finished building: ../src/uart_15xx.c
+ 
+Building file: ../src/wwdt_15xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/wwdt_15xx.d" -MT"src/wwdt_15xx.o" -MT"src/wwdt_15xx.d" -o "src/wwdt_15xx.o" "../src/wwdt_15xx.c"
+Finished building: ../src/wwdt_15xx.c
+ 
+Building target: liblpc_chip_15xx.a
+Invoking: MCU Archiver
+arm-none-eabi-ar -r  "liblpc_chip_15xx.a"  ./src/acmp_15xx.o ./src/adc_15xx.o ./src/chip_15xx.o ./src/clock_15xx.o ./src/crc_15xx.o ./src/dac_15xx.o ./src/dma_15xx.o ./src/eeprom.o ./src/gpio_15xx.o ./src/i2c_common_15xx.o ./src/i2cm_15xx.o ./src/i2cs_15xx.o ./src/iap.o ./src/iocon_15xx.o ./src/pinint_15xx.o ./src/pmu_15xx.o ./src/ring_buffer.o ./src/ritimer_15xx.o ./src/rtc_15xx.o ./src/sct_15xx.o ./src/sct_pwm_15xx.o ./src/sctipu_15xx.o ./src/spi_15xx.o ./src/stopwatch_15xx.o ./src/swm_15xx.o ./src/sysctl_15xx.o ./src/sysinit_15xx.o ./src/uart_15xx.o ./src/wwdt_15xx.o   
+d:\nxp\LPCXpresso_8.2.2_650\lpcxpresso\tools\bin\arm-none-eabi-ar.exe: creating liblpc_chip_15xx.a
+Finished building target: liblpc_chip_15xx.a
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "liblpc_chip_15xx.a" ; # arm-none-eabi-objdump -h -S "liblpc_chip_15xx.a" >"liblpc_chip_15xx.lss"
+   text	   data	    bss	    dec	    hex	filename
+    620	      0	      0	    620	    26c	acmp_15xx.o (ex liblpc_chip_15xx.a)
+    812	      0	      0	    812	    32c	adc_15xx.o (ex liblpc_chip_15xx.a)
+    300	      0	      0	    300	    12c	chip_15xx.o (ex liblpc_chip_15xx.a)
+   1664	      0	      0	   1664	    680	clock_15xx.o (ex liblpc_chip_15xx.a)
+    504	      0	      0	    504	    1f8	crc_15xx.o (ex liblpc_chip_15xx.a)
+     64	      0	      0	     64	     40	dac_15xx.o (ex liblpc_chip_15xx.a)
+    300	      0	      0	    300	    12c	dma_15xx.o (ex liblpc_chip_15xx.a)
+    192	      0	      0	    192	     c0	eeprom.o (ex liblpc_chip_15xx.a)
+    696	      0	      0	    696	    2b8	gpio_15xx.o (ex liblpc_chip_15xx.a)
+     88	      0	      0	     88	     58	i2c_common_15xx.o (ex liblpc_chip_15xx.a)
+    872	      0	      0	    872	    368	i2cm_15xx.o (ex liblpc_chip_15xx.a)
+    448	      0	      0	    448	    1c0	i2cs_15xx.o (ex liblpc_chip_15xx.a)
+    608	      0	      0	    608	    260	iap.o (ex liblpc_chip_15xx.a)
+    124	      0	      0	    124	     7c	iocon_15xx.o (ex liblpc_chip_15xx.a)
+      0	      0	      0	      0	      0	pinint_15xx.o (ex liblpc_chip_15xx.a)
+    288	      0	      0	    288	    120	pmu_15xx.o (ex liblpc_chip_15xx.a)
+    972	      0	      0	    972	    3cc	ring_buffer.o (ex liblpc_chip_15xx.a)
+    644	      0	      0	    644	    284	ritimer_15xx.o (ex liblpc_chip_15xx.a)
+      0	      0	      0	      0	      0	rtc_15xx.o (ex liblpc_chip_15xx.a)
+    328	      0	      0	    328	    148	sct_15xx.o (ex liblpc_chip_15xx.a)
+    416	      0	      0	    416	    1a0	sct_pwm_15xx.o (ex liblpc_chip_15xx.a)
+    140	      0	      0	    140	     8c	sctipu_15xx.o (ex liblpc_chip_15xx.a)
+   1788	      0	      0	   1788	    6fc	spi_15xx.o (ex liblpc_chip_15xx.a)
+    328	      0	     12	    340	    154	stopwatch_15xx.o (ex liblpc_chip_15xx.a)
+    356	      0	      0	    356	    164	swm_15xx.o (ex liblpc_chip_15xx.a)
+    436	      0	      0	    436	    1b4	sysctl_15xx.o (ex liblpc_chip_15xx.a)
+    420	      0	      0	    420	    1a4	sysinit_15xx.o (ex liblpc_chip_15xx.a)
+   1136	      0	      0	   1136	    470	uart_15xx.o (ex liblpc_chip_15xx.a)
+    116	      0	      0	    116	     74	wwdt_15xx.o (ex liblpc_chip_15xx.a)
+ 
+
+14:28:35 Build Finished (took 7s.664ms)
+

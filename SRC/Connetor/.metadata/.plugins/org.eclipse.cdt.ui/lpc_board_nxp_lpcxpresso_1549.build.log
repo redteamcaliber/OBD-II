@@ -1,0 +1,28 @@
+14:28:25 **** Build of configuration Debug for project lpc_board_nxp_lpcxpresso_1549 ****
+make -r all 
+Building file: ../src/board.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_board_nxp_lpcxpresso_1549\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/board.d" -MT"src/board.o" -MT"src/board.d" -o "src/board.o" "../src/board.c"
+Finished building: ../src/board.c
+ 
+Building file: ../src/board_sysinit.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_chip_15xx\inc" -I"C:\Users\Topon\Desktop\OBD-II\SRC\Connetor\lpc_board_nxp_lpcxpresso_1549\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/board_sysinit.d" -MT"src/board_sysinit.o" -MT"src/board_sysinit.d" -o "src/board_sysinit.o" "../src/board_sysinit.c"
+Finished building: ../src/board_sysinit.c
+ 
+Building target: liblpc_board_nxp_lpcxpresso_1549.a
+Invoking: MCU Archiver
+arm-none-eabi-ar -r  "liblpc_board_nxp_lpcxpresso_1549.a"  ./src/board.o ./src/board_sysinit.o   
+d:\nxp\LPCXpresso_8.2.2_650\lpcxpresso\tools\bin\arm-none-eabi-ar.exe: creating liblpc_board_nxp_lpcxpresso_1549.a
+Finished building target: liblpc_board_nxp_lpcxpresso_1549.a
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "liblpc_board_nxp_lpcxpresso_1549.a" ; # arm-none-eabi-objdump -h -S "liblpc_board_nxp_lpcxpresso_1549.a" >"liblpc_board_nxp_lpcxpresso_1549.lss"
+   text	   data	    bss	    dec	    hex	filename
+   1317	      0	      0	   1317	    525	board.o (ex liblpc_board_nxp_lpcxpresso_1549.a)
+    574	      0	      0	    574	    23e	board_sysinit.o (ex liblpc_board_nxp_lpcxpresso_1549.a)
+ 
+
+14:28:27 Build Finished (took 1s.797ms)
+

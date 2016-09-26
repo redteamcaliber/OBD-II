@@ -1,0 +1,29 @@
+!SESSION 2016-09-26 14:33:38.644 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  C:\Users\Topon\Desktop\OBD-II\src_ref\periph_blinky\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86 C:\Users\Topon\Desktop\OBD-II\src_ref\periph_blinky\.project
+
+!ENTRY org.eclipse.ui 4 4 2016-09-26 14:33:48.544
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2016-09-26 14:33:48.561
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+!SESSION 2016-09-26 14:34:31.256 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  C:\Users\Topon\Desktop\OBD-II\src_ref\obdlpc15\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86 C:\Users\Topon\Desktop\OBD-II\src_ref\obdlpc15\.project
+
+!ENTRY org.eclipse.ui 4 4 2016-09-26 14:34:37.286
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2016-09-26 14:34:37.302
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-09-26 14:35:46.128
+!MESSAGE Indexed 'allpro-master' (28 sources, 174 headers) in 3.96 sec: 12,543 declarations; 21,985 references; 0 unresolved inclusions; 6 syntax errors; 1,007 unresolved names (2.8%)

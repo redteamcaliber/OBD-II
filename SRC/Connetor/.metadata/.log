@@ -1,0 +1,21 @@
+!SESSION 2016-09-26 14:19:23.228 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2016-09-26 14:20:09.557
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2016-09-26 14:20:09.557
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-09-26 14:23:29.810
+!MESSAGE Indexed 'lpc_board_nxp_lpcxpresso_1549' (2 sources, 88 headers) in 1.26 sec: 4,918 declarations; 8,141 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-09-26 14:23:30.791
+!MESSAGE Indexed 'lpc_chip_15xx' (29 sources, 86 headers) in 0.965 sec: 5,665 declarations; 10,387 references; 2 unresolved inclusions; 0 syntax errors; 8 unresolved names (0.05%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-09-26 14:26:34.392
+!MESSAGE Indexed 'test_equipment' (7 sources, 174 headers) in 1.8 sec: 5,357 declarations; 11,854 references; 0 unresolved inclusions; 7 syntax errors; 9 unresolved names (0.052%)
